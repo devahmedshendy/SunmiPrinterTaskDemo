@@ -13,6 +13,7 @@
 		6459D0622BE4299F00442924 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6459D0612BE4299F00442924 /* Base */; };
 		6459D0642BE429A100442924 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6459D0632BE429A100442924 /* Assets.xcassets */; };
 		6459D0672BE429A100442924 /* Base in Resources */ = {isa = PBXBuildFile; fileRef = 6459D0662BE429A100442924 /* Base */; };
+		6459D06F2BE43E4100442924 /* SunmiPrinterSDK.xcframework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6459D06E2BE43E4100442924 /* SunmiPrinterSDK.xcframework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,8 @@
 		6459D0632BE429A100442924 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		6459D0662BE429A100442924 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		6459D0682BE429A100442924 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6459D06E2BE43E4100442924 /* SunmiPrinterSDK.xcframework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcframework; path = SunmiPrinterSDK.xcframework; sourceTree = "<group>"; };
+		6459D0702BE441CD00442924 /* SunmiPrinterTaskDemo-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SunmiPrinterTaskDemo-Bridging-Header.h"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,6 +34,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6459D06F2BE43E4100442924 /* SunmiPrinterSDK.xcframework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +44,7 @@
 		6459D04E2BE4299F00442924 = {
 			isa = PBXGroup;
 			children = (
+				6459D06E2BE43E4100442924 /* SunmiPrinterSDK.xcframework */,
 				6459D0592BE4299F00442924 /* SunmiPrinterTaskDemo */,
 				6459D0582BE4299F00442924 /* Products */,
 			);
@@ -63,6 +68,7 @@
 				6459D0632BE429A100442924 /* Assets.xcassets */,
 				6459D0652BE429A100442924 /* LaunchScreen.storyboard */,
 				6459D0682BE429A100442924 /* Info.plist */,
+				6459D0702BE441CD00442924 /* SunmiPrinterTaskDemo-Bridging-Header.h */,
 			);
 			path = SunmiPrinterTaskDemo;
 			sourceTree = "<group>";
@@ -99,6 +105,7 @@
 				TargetAttributes = {
 					6459D0562BE4299F00442924 = {
 						CreatedOnToolsVersion = 15.3;
+						LastSwiftMigration = 1530;
 					};
 				};
 			};
@@ -290,6 +297,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -309,6 +317,8 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SunmiPrinterTaskDemo/SunmiPrinterTaskDemo-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
@@ -319,6 +329,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -338,6 +349,7 @@
 				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
 				SUPPORTS_MACCATALYST = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "SunmiPrinterTaskDemo/SunmiPrinterTaskDemo-Bridging-Header.h";
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = 1;
 			};
