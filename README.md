@@ -1,11 +1,11 @@
 # SunmiPrinterTaskDemo
 
 ### Steps I think would help me build the demo
-- Read the documentation at section `10.Cloud Printer SDK for iOS` > `SDK Quick Start`.
-- Download `SMPrinterSDKProject V1.6.3.zip`:
+- Read the documentation at section **10.Cloud Printer SDK for iOS** > **SDK Quick Start**.
+- Download **SMPrinterSDKProject V1.6.3.zip**:
     - Open `SMPrinterSDKProject.xcworkspace` with Xcode.
     - Run the project, and take a look at their demo & the code.
-- Download `SunmiPrinterSDK.xcframework V1.6.3.zip`, then to integrate it with demo Swift project:
+- Download **SunmiPrinterSDK.xcframework V1.6.3.zip**, then to integrate it with demo Swift project:
     - Create new Swift project `SunmiPrinterTaskDemo` (UIKit).
     - Add Bluetooth permissions to the [info.plist] file:  
       `Privacy - Bluetooth Always Usage Description`  
