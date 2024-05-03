@@ -2,14 +2,6 @@
 
 ### Steps I think would help me build the demo
 - Read the documentation at section `10.Cloud Printer SDK for iOS` > `SDK Quick Start`.
-  - Start a whole conversation with **Gemini** to help me in the process:  
-    > You act as expert iOS developer, with sufficient years of experience, and able to write code that help communicating with SUNMI cloud printers.  
-    >   
-    > The challenge is:  
-    > I need a demo in Swift to explain how you can communicate with this printer via IP address not by Bluetooth using the framework core Method.  
-    > 
-    > You won't provide the complete solution, but guide me one step at a time until I am able to write such demo.
-
 - Download `SMPrinterSDKProject V1.6.3.zip`:
     - Open `SMPrinterSDKProject.xcworkspace` with Xcode.
     - Run the project, and take a look at their demo & the code.
